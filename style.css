@@ -1,0 +1,86 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: calc(100% - 22px); /* Ajuste para padding y border */
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Incluir padding y border en el ancho */
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #e9f7ef;
+            color: #28a745;
+            border: 1px solid #28a745;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #dc3545;
+            border-color: #dc3545;
+        }
+        #output {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 4px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap; /* Para preservar saltos de línea */
+            font-family: monospace;
+            font-size: 14px;
+        }
+        .item-list {
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+        }
+        .item-list:last-child {
+            border-bottom: none;
+        }
+        .prestado {
+            color: #e67e22; /* Naranja para prestado */
+            font-weight: bold;
+        }
